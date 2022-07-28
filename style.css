@@ -5,20 +5,37 @@
 .fnt-clr{
     color: yellow;
 }
-.bnr-txt{
-    margin-bottom: 7%;
-    width: 50%;
-    margin-left: 10%;
+.bnr-bg{
+    filter:brightness(60%)
 }
-.strt-btn{
-    width: 187px;
-    height: 56px;
-    left: 717px;
-    top: 620px;
-    background-color: #289BDE;
-    color: white;
+.join-bnr{
+    padding: 7% ;
+    width: 100%;
+    height: 100%;
 }
-.bnr-imx-six{
+.join-btn{
+    margin-top: 3%;
+    margin-left: 35%;
+}
+
+/* ......breakpoint...... */
+
+/* small device */
+@media only screen and (max-width: 576px) {
+    .bnr-txt{
+        width: 50%;
+        margin-bottom: -10%;
+    }
+    .txt-siz{
+        font-size: 170%;
+    }
     
-    
+}
+/* medium device */
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+    .bnr-txt{
+        width: 50%;
+        border: 1px solid red;
+        
+    }
 }
