@@ -21,6 +21,12 @@
     width: 115px;
     margin-left: 5%;
 }
+footer{
+    padding: 7%;
+}
+footer i{
+    margin-left: 3%;
+}
 
 /* ......breakpoint...... */
 
