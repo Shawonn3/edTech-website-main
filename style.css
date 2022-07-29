@@ -9,12 +9,12 @@
     filter:brightness(60%)
 }
 .join-bnr{
-    padding: 7% ;
+    padding: 6% ;
     width: 100%;
     height: 100%;
 }
 .join-btn{
-    margin-top: 3%;
+    margin-top: 4%;
     margin-left: 35%;
 }
 .comp img{
@@ -33,19 +33,22 @@ footer i{
 /* small device */
 @media only screen and (max-width: 576px) {
     .bnr-txt{
-        width: 50%;
-        margin-bottom: -10%;
+        width: 80%;
+        margin-bottom: 20%;
     }
     .txt-siz{
         font-size: 170%;
+        
     }
+    
     
 }
 /* medium device */
 @media only screen and (min-width: 576px) and (max-width: 768px) {
     .bnr-txt{
         width: 50%;
-        border: 1px solid red;
-        
+    }
+    .txt-siz{
+        font-size: 170%;
     }
 }
